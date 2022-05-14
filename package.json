@@ -1,0 +1,21 @@
+{
+    "name": "plastic-nord",
+    "displayName": "plastic-nord",
+    "description": "A theme which combines the interface from the plastic theme and the syntax from nord with only a few changes ",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "plastic-nord",
+                "uiTheme": "vs-dark",
+                "path": "./themes/plastic-nord-color-theme.json"
+            }
+        ]
+    }
+}
